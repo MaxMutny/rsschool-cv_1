@@ -1,3 +1,109 @@
 body {
-    background-color: aqua;
+    background-color: rgb(72, 72, 72);
+    color: rgb(243, 243, 243);
+}
+
+
+.container {
+   
+   max-width: 1440px;
+   margin: 0 auto;
+    
+    
+    
+    
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    
+}
+
+
+.header {
+    background-color: black;
+    
+    grid-column: 1/-1;
+    grid-row: 1/2;
+
+
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+    
+}
+
+.nav-list {
+
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+.footer {
+    color: black;
+   
+    grid-column: 1/-1;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    
+    
+    background-color: rgb(170, 170, 170);
+    
+}
+ .h {
+    justify-self: center;
+    align-self: center;
+ }
+
+ .photo {
+    justify-self: center;
+    align-self: center;
+
+ }
+
+ ul {
+    list-style-type: none;
+ }
+
+ a {
+    text-decoration: none;
+    color: rgb(211, 211, 211);
+ }
+
+ a:hover {
+   color: red;
+ }
+ .a_cv:hover {
+   color: red;
+ }
+
+ .a_git:hover {
+   color: red;
+ }
+
+ .a_git {
+    color: rgb(0, 0, 0);
+ }
+
+ .a_cv {
+    color: rgb(243, 243, 243);
+ }
+
+ .item {
+    padding: 0 60px;
+ }
+.log {
+    width: 100px;
+    margin: 7px;
+    
+    
 }
